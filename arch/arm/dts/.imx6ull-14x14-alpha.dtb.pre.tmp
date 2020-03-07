@@ -8,8 +8,8 @@
 #include "imx6ull-14x14-alpha.dtsi"
 
 / {
-	model = "Freescale i.MX6 UltraLiteLite 14x14 EVK Board";
-	compatible = "fsl,imx6ull-14x14-evk", "fsl,imx6ull";
+	model = "Freescale i.MX6 UltraLiteLite 14x14 ALPHA Board";
+	compatible = "fsl,imx6ull-14x14-alpha", "fsl,imx6ull";
 };
 
 &clks {

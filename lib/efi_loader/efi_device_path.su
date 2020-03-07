@@ -1,3 +1,4 @@
+efi_device_path.c:425:36:dp_size	0	static
 efi_device_path.c:59:14:dp_alloc	16	static
 efi_device_path.c:659:17:dp_part_size	24	static
 efi_device_path.c:694:14:dp_part_node	120	static

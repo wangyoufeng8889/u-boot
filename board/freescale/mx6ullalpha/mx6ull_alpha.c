@@ -59,12 +59,33 @@ int board_early_init_f(void)
 
 	return 0;
 }
+#ifdef CONFIG_FEC_MXC
+static int setup_fec(void)
+{
+	int ret;
+	struct iomuxc *iomuxc_regs = (struct iomuxc *)IOMUXC_BASE_ADDR;
 
+/* clear gpr1[14], gpr1[18:17] to select anatop clock */
+	clrsetbits_le32(&iomuxc_regs->gpr[1], IOMUX_GPR1_FEC_MASK,
+				IOMUX_GPR1_FEC_CLOCK_MUX1_SEL_MASK);
+	ret = enable_fec_anatop_clock(0, ENET_50MHZ);
+	if (ret)
+		return ret;
+	ret = enable_fec_anatop_clock(1, ENET_50MHZ);
+	if (ret)
+		return ret;
+	enable_enet_clk(0);
+	enable_enet_clk(1);
+	return 0;
+}
+#endif
 int board_init(void)
 {
 	/* Address of boot parameters */
 	gd->bd->bi_boot_params = PHYS_SDRAM + 0x100;
-
+#ifdef	CONFIG_FEC_MXC
+	setup_fec();
+#endif
 	return 0;
 }
 
@@ -88,7 +109,7 @@ int board_late_init(void)
 	if (is_cpu_type(MXC_CPU_MX6ULZ))
 		env_set("board_name", "ULZ-EVK");
 	else
-		env_set("board_name", "EVK");
+		env_set("board_name", "ALPHA");
 	env_set("board_rev", "14X14");
 #endif
 
@@ -100,7 +121,7 @@ int checkboard(void)
 	if (is_cpu_type(MXC_CPU_MX6ULZ))
 		puts("Board: MX6ULZ 14x14 EVK\n");
 	else
-		puts("Board: MX6ULL 14x14 EVK\n");
+		puts("Board: MX6ULL 14x14 ALPHA\n");
 
 	return 0;
 }

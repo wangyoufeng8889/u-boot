@@ -14,8 +14,8 @@ phy.c:779:27:get_phy_device_by_mask	48	static
 phy.c:827:5:phy_reset	24	static
 phy.c:878:5:miiphy_reset	8	static
 phy.c:893:20:phy_find_by_mask	16	static
-phy.c:910:6:phy_connect_dev	24	static
-phy.c:994:20:phy_connect	24	static
+phy.c:908:6:phy_connect_dev	24	static
+phy.c:990:20:phy_connect	24	static
 phy.c:1023:5:phy_startup	0	static
 phy.c:1031:12:board_phy_config	0	static
 phy.c:1038:5:phy_config	0	static

@@ -7,6 +7,7 @@ clock.c:81:6:enable_usboh3_clk	0	static
 clock.c:95:6:enable_enet_clk	16	static
 clock.c:118:6:enable_uart_clk	8	static
 clock.c:135:5:enable_usdhc_clk	0	static
+clock.c:154:5:enable_i2c_clk	16	static
 clock.c:194:5:enable_spi_clk	0	static
 clock.c:320:5:get_periph_clk	8	static
 clock.c:432:12:get_axi_clk	8	static

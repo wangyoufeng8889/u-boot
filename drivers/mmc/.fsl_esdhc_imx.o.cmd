@@ -54,12 +54,6 @@ deps_drivers/mmc/fsl_esdhc_imx.o := \
     $(wildcard include/config/sys/i2c/mxc/i2c1.h) \
     $(wildcard include/config/sys/i2c/mxc/i2c2.h) \
     $(wildcard include/config/sys/i2c/speed.h) \
-    $(wildcard include/config/cmd/net.h) \
-    $(wildcard include/config/fec/mxc.h) \
-    $(wildcard include/config/fec/enet/dev.h) \
-    $(wildcard include/config/fec/mxc/phyaddr.h) \
-    $(wildcard include/config/fec/xcv/type.h) \
-    $(wildcard include/config/ethprime.h) \
     $(wildcard include/config/sys/mmc/img/load/part.h) \
     $(wildcard include/config/extra/env/settings.h) \
     $(wildcard include/config/sys/mmc/env/dev.h) \

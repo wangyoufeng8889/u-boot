@@ -89,7 +89,7 @@
 	.fpu softvfp
 	.type	main, %function
 main:
-.LFB207:
+.LFB203:
 	.file 1 "lib/asm-offsets.c"
 	.loc 1 19 0
 	.cfi_startproc
@@ -158,7 +158,7 @@ main:
 	movs	r0, #0	@,
 	bx	lr	@
 	.cfi_endproc
-.LFE207:
+.LFE203:
 	.size	main, .-main
 	.text
 .Letext0:
@@ -184,15 +184,15 @@ main:
 	.file 21 "include/env_internal.h"
 	.section	.debug_info,"",%progbits
 .Ldebug_info0:
-	.4byte	0xb5e
+	.4byte	0xa10
 	.2byte	0x4
 	.4byte	.Ldebug_abbrev0
 	.byte	0x4
 	.uleb128 0x1
-	.4byte	.LASF175
+	.4byte	.LASF162
 	.byte	0xc
-	.4byte	.LASF176
-	.4byte	.LASF177
+	.4byte	.LASF163
+	.4byte	.LASF164
 	.4byte	.Ldebug_ranges0+0
 	.4byte	0
 	.4byte	.Ldebug_line0
@@ -324,7 +324,7 @@ main:
 	.uleb128 0x5
 	.4byte	0x115
 	.uleb128 0xb
-	.4byte	.LASF178
+	.4byte	.LASF165
 	.byte	0x5
 	.byte	0x19
 	.4byte	0x125
@@ -1166,380 +1166,223 @@ main:
 	.uleb128 0x4
 	.byte	0x4
 	.4byte	0xc8
-	.uleb128 0xf
-	.4byte	.LASF131
-	.byte	0x48
-	.byte	0x14
-	.byte	0xb4
-	.4byte	0x8bd
-	.uleb128 0x10
-	.4byte	.LASF27
-	.byte	0x14
-	.byte	0xb6
-	.4byte	0x8bd
-	.byte	0
-	.uleb128 0x10
-	.4byte	.LASF132
-	.byte	0x14
-	.byte	0xb7
-	.4byte	0x18f
-	.byte	0x14
-	.uleb128 0x10
-	.4byte	.LASF133
-	.byte	0x14
-	.byte	0xb8
-	.4byte	0xb2
-	.byte	0x1c
-	.uleb128 0x10
-	.4byte	.LASF110
-	.byte	0x14
-	.byte	0xb9
-	.4byte	0x33
-	.byte	0x20
-	.uleb128 0x10
-	.4byte	.LASF134
-	.byte	0x14
-	.byte	0xbb
-	.4byte	0x8e7
-	.byte	0x24
-	.uleb128 0x10
-	.4byte	.LASF135
-	.byte	0x14
-	.byte	0xbc
-	.4byte	0x906
-	.byte	0x28
-	.uleb128 0x10
-	.4byte	.LASF136
-	.byte	0x14
-	.byte	0xbd
-	.4byte	0x91b
-	.byte	0x2c
-	.uleb128 0x10
-	.4byte	.LASF137
-	.byte	0x14
-	.byte	0xbe
-	.4byte	0x92c
-	.byte	0x30
-	.uleb128 0x10
-	.4byte	.LASF138
-	.byte	0x14
-	.byte	0xbf
-	.4byte	0x951
-	.byte	0x34
-	.uleb128 0x10
-	.4byte	.LASF139
-	.byte	0x14
-	.byte	0xc0
-	.4byte	0x91b
-	.byte	0x38
-	.uleb128 0x10
-	.4byte	.LASF140
-	.byte	0x14
-	.byte	0xc1
-	.4byte	0x8e1
-	.byte	0x3c
-	.uleb128 0x10
-	.4byte	.LASF141
-	.byte	0x14
-	.byte	0xc2
-	.4byte	0x33
-	.byte	0x40
-	.uleb128 0x10
-	.4byte	.LASF142
-	.byte	0x14
-	.byte	0xc3
-	.4byte	0x136
-	.byte	0x44
-	.byte	0
-	.uleb128 0x9
-	.4byte	0x4e
-	.4byte	0x8cd
-	.uleb128 0xa
-	.4byte	0x25
-	.byte	0x13
-	.byte	0
-	.uleb128 0x11
-	.4byte	0x33
-	.4byte	0x8e1
-	.uleb128 0x12
-	.4byte	0x8e1
-	.uleb128 0x12
-	.4byte	0x6f9
-	.byte	0
-	.uleb128 0x4
-	.byte	0x4
-	.4byte	0x814
-	.uleb128 0x4
-	.byte	0x4
-	.4byte	0x8cd
-	.uleb128 0x11
-	.4byte	0x33
-	.4byte	0x906
-	.uleb128 0x12
-	.4byte	0x8e1
-	.uleb128 0x12
-	.4byte	0x136
-	.uleb128 0x12
-	.4byte	0x33
-	.byte	0
-	.uleb128 0x4
-	.byte	0x4
-	.4byte	0x8ed
-	.uleb128 0x11
-	.4byte	0x33
-	.4byte	0x91b
-	.uleb128 0x12
-	.4byte	0x8e1
-	.byte	0
-	.uleb128 0x4
-	.byte	0x4
-	.4byte	0x90c
 	.uleb128 0x1e
-	.4byte	0x92c
-	.uleb128 0x12
-	.4byte	0x8e1
-	.byte	0
-	.uleb128 0x4
-	.byte	0x4
-	.4byte	0x921
-	.uleb128 0x11
-	.4byte	0x33
-	.4byte	0x94b
-	.uleb128 0x12
-	.4byte	0x8e1
-	.uleb128 0x12
-	.4byte	0x94b
-	.uleb128 0x12
-	.4byte	0x33
-	.byte	0
-	.uleb128 0x4
-	.byte	0x4
-	.4byte	0xa2
-	.uleb128 0x4
-	.byte	0x4
-	.4byte	0x932
-	.uleb128 0x8
-	.4byte	.LASF143
-	.byte	0x14
-	.byte	0xc9
-	.4byte	0x8e1
-	.uleb128 0x1e
-	.4byte	0x972
+	.4byte	0x824
 	.uleb128 0x12
 	.4byte	0x136
 	.uleb128 0x12
 	.4byte	0x33
 	.byte	0
 	.uleb128 0xe
-	.4byte	.LASF144
+	.4byte	.LASF131
 	.byte	0x14
 	.2byte	0x127
-	.4byte	0x97e
+	.4byte	0x830
 	.uleb128 0x4
 	.byte	0x4
-	.4byte	0x962
+	.4byte	0x814
 	.uleb128 0x9
 	.4byte	0x98
-	.4byte	0x994
+	.4byte	0x846
 	.uleb128 0xa
 	.4byte	0x25
 	.byte	0x5
 	.byte	0
 	.uleb128 0xe
-	.4byte	.LASF145
+	.4byte	.LASF132
 	.byte	0x14
 	.2byte	0x202
 	.4byte	0x7f5
 	.uleb128 0xe
-	.4byte	.LASF146
+	.4byte	.LASF133
 	.byte	0x14
 	.2byte	0x203
 	.4byte	0x7f5
 	.uleb128 0xe
-	.4byte	.LASF147
+	.4byte	.LASF134
 	.byte	0x14
 	.2byte	0x205
 	.4byte	0x7f5
 	.uleb128 0xe
-	.4byte	.LASF148
+	.4byte	.LASF135
 	.byte	0x14
 	.2byte	0x20a
 	.4byte	0x7da
 	.uleb128 0xe
-	.4byte	.LASF149
+	.4byte	.LASF136
 	.byte	0x14
 	.2byte	0x20b
 	.4byte	0x7da
 	.uleb128 0x9
 	.4byte	0x4e
-	.4byte	0x9e0
+	.4byte	0x892
 	.uleb128 0xa
 	.4byte	0x25
 	.byte	0x3f
 	.byte	0
 	.uleb128 0xe
-	.4byte	.LASF150
+	.4byte	.LASF137
 	.byte	0x14
 	.2byte	0x20c
-	.4byte	0x9d0
+	.4byte	0x882
 	.uleb128 0xe
-	.4byte	.LASF151
+	.4byte	.LASF138
 	.byte	0x14
 	.2byte	0x20e
-	.4byte	0x984
+	.4byte	0x836
 	.uleb128 0xe
-	.4byte	.LASF152
+	.4byte	.LASF139
 	.byte	0x14
 	.2byte	0x20f
-	.4byte	0x984
+	.4byte	0x836
 	.uleb128 0xe
-	.4byte	.LASF153
+	.4byte	.LASF140
 	.byte	0x14
 	.2byte	0x210
 	.4byte	0x7f5
 	.uleb128 0xe
-	.4byte	.LASF154
+	.4byte	.LASF141
 	.byte	0x14
 	.2byte	0x211
 	.4byte	0x7f5
 	.uleb128 0xe
-	.4byte	.LASF155
+	.4byte	.LASF142
 	.byte	0x14
 	.2byte	0x212
 	.4byte	0x80e
 	.uleb128 0x9
 	.4byte	0x80e
-	.4byte	0xa38
+	.4byte	0x8ea
 	.uleb128 0xa
 	.4byte	0x25
 	.byte	0x3
 	.byte	0
 	.uleb128 0xe
-	.4byte	.LASF156
+	.4byte	.LASF143
 	.byte	0x14
 	.2byte	0x213
-	.4byte	0xa28
+	.4byte	0x8da
 	.uleb128 0xe
-	.4byte	.LASF157
+	.4byte	.LASF144
 	.byte	0x14
 	.2byte	0x214
 	.4byte	0x80e
 	.uleb128 0xe
-	.4byte	.LASF158
+	.4byte	.LASF145
 	.byte	0x14
 	.2byte	0x215
 	.4byte	0x33
 	.uleb128 0x9
 	.4byte	0xa2
-	.4byte	0xa6c
+	.4byte	0x91e
 	.uleb128 0xa
 	.4byte	0x25
 	.byte	0x5
 	.byte	0
 	.uleb128 0x5
-	.4byte	0xa5c
+	.4byte	0x90e
 	.uleb128 0xe
-	.4byte	.LASF159
+	.4byte	.LASF146
 	.byte	0x14
 	.2byte	0x216
-	.4byte	0xa6c
+	.4byte	0x91e
 	.uleb128 0xe
-	.4byte	.LASF160
+	.4byte	.LASF147
 	.byte	0x14
 	.2byte	0x217
-	.4byte	0xa6c
+	.4byte	0x91e
 	.uleb128 0xe
-	.4byte	.LASF161
+	.4byte	.LASF148
 	.byte	0x14
 	.2byte	0x21b
 	.4byte	0xd3
 	.uleb128 0xe
-	.4byte	.LASF162
+	.4byte	.LASF149
 	.byte	0x14
 	.2byte	0x21c
 	.4byte	0xd3
 	.uleb128 0xe
-	.4byte	.LASF163
+	.4byte	.LASF150
 	.byte	0x14
 	.2byte	0x21e
 	.4byte	0x33
 	.uleb128 0x9
 	.4byte	0x4e
-	.4byte	0xabe
+	.4byte	0x970
 	.uleb128 0x15
 	.4byte	0x25
 	.2byte	0x3ff
 	.byte	0
 	.uleb128 0xe
-	.4byte	.LASF164
+	.4byte	.LASF151
 	.byte	0x14
 	.2byte	0x225
-	.4byte	0xaad
+	.4byte	0x95f
 	.uleb128 0xe
-	.4byte	.LASF165
+	.4byte	.LASF152
 	.byte	0x14
 	.2byte	0x227
 	.4byte	0x143
 	.uleb128 0xe
-	.4byte	.LASF166
+	.4byte	.LASF153
 	.byte	0x14
 	.2byte	0x229
 	.4byte	0xa7
 	.uleb128 0xe
-	.4byte	.LASF167
+	.4byte	.LASF154
 	.byte	0x14
 	.2byte	0x22b
 	.4byte	0xa7
 	.uleb128 0xe
-	.4byte	.LASF168
+	.4byte	.LASF155
 	.byte	0x14
 	.2byte	0x233
 	.4byte	0x7f5
 	.uleb128 0x1f
-	.4byte	.LASF179
+	.4byte	.LASF166
 	.byte	0x7
 	.byte	0x4
 	.4byte	0x25
 	.byte	0x14
 	.2byte	0x287
-	.4byte	0xb25
+	.4byte	0x9d7
 	.uleb128 0x20
-	.4byte	.LASF169
+	.4byte	.LASF156
 	.byte	0
 	.uleb128 0x20
-	.4byte	.LASF170
+	.4byte	.LASF157
 	.byte	0x1
 	.uleb128 0x20
-	.4byte	.LASF171
+	.4byte	.LASF158
 	.byte	0x2
 	.uleb128 0x20
-	.4byte	.LASF172
+	.4byte	.LASF159
 	.byte	0x3
 	.byte	0
 	.uleb128 0xe
-	.4byte	.LASF173
+	.4byte	.LASF160
 	.byte	0x14
 	.2byte	0x28d
-	.4byte	0xafa
+	.4byte	0x9ac
 	.uleb128 0x9
 	.4byte	0x7a
-	.4byte	0xb3c
+	.4byte	0x9ee
 	.uleb128 0xd
 	.byte	0
 	.uleb128 0x5
-	.4byte	0xb31
+	.4byte	0x9e3
 	.uleb128 0x8
-	.4byte	.LASF174
+	.4byte	.LASF161
 	.byte	0x15
 	.byte	0x72
-	.4byte	0xb3c
+	.4byte	0x9ee
 	.uleb128 0x21
-	.4byte	.LASF180
+	.4byte	.LASF167
 	.byte	0x1
 	.byte	0x12
 	.4byte	0x33
-	.4byte	.LFB207
-	.4byte	.LFE207-.LFB207
+	.4byte	.LFB203
+	.4byte	.LFE203-.LFB203
 	.uleb128 0x1
 	.byte	0x9c
 	.byte	0
@@ -1979,14 +1822,14 @@ main:
 	.byte	0
 	.2byte	0
 	.2byte	0
-	.4byte	.LFB207
-	.4byte	.LFE207-.LFB207
+	.4byte	.LFB203
+	.4byte	.LFE203-.LFB203
 	.4byte	0
 	.4byte	0
 	.section	.debug_ranges,"",%progbits
 .Ldebug_ranges0:
-	.4byte	.LFB207
-	.4byte	.LFE207
+	.4byte	.LFB203
+	.4byte	.LFE203
 	.4byte	0
 	.4byte	0
 	.section	.debug_line,"",%progbits
@@ -2000,37 +1843,33 @@ main:
 	.ascii	"_datarel_start_ofs\000"
 .LASF74:
 	.ascii	"image_save_size\000"
-.LASF172:
+.LASF159:
 	.ascii	"NETLOOP_FAIL\000"
 .LASF40:
 	.ascii	"bi_memsize\000"
 .LASF80:
 	.ascii	"ih_load\000"
-.LASF170:
+.LASF157:
 	.ascii	"NETLOOP_RESTART\000"
 .LASF94:
 	.ascii	"type\000"
 .LASF93:
 	.ascii	"comp\000"
-.LASF134:
-	.ascii	"init\000"
+.LASF28:
+	.ascii	"select_hwpart\000"
 .LASF60:
 	.ascii	"FIQ_STACK_START\000"
 .LASF116:
 	.ascii	"totalsize\000"
-.LASF160:
+.LASF147:
 	.ascii	"net_null_ethaddr\000"
 .LASF11:
 	.ascii	"long long unsigned int\000"
-.LASF132:
-	.ascii	"enetaddr\000"
 .LASF32:
 	.ascii	"flash_id\000"
-.LASF140:
-	.ascii	"next\000"
-.LASF167:
+.LASF154:
 	.ascii	"net_boot_file_expected_size_in_blocks\000"
-.LASF175:
+.LASF162:
 	.ascii	"GNU C11 7.5.0 -mthumb -mthumb-interwork -mabi=aapcs"
 	.ascii	"-linux -mword-relocations -mno-unaligned-access -mf"
 	.ascii	"loat-abi=soft -march=armv7-a -mtune=generic-armv7-a"
@@ -2041,7 +1880,7 @@ main:
 	.ascii	"ections -fdata-sections -fno-common -ffixed-r9\000"
 .LASF66:
 	.ascii	"lmb_property\000"
-.LASF149:
+.LASF136:
 	.ascii	"net_hostname\000"
 .LASF121:
 	.ascii	"last_comp_version\000"
@@ -2051,8 +1890,6 @@ main:
 	.ascii	"signed char\000"
 .LASF76:
 	.ascii	"ih_magic\000"
-.LASF28:
-	.ascii	"select_hwpart\000"
 .LASF55:
 	.ascii	"bi_arch_number\000"
 .LASF1:
@@ -2061,42 +1898,42 @@ main:
 	.ascii	"legacy_hdr_os\000"
 .LASF106:
 	.ascii	"initrd_end\000"
-.LASF177:
+.LASF164:
 	.ascii	"/home/john/Desktop/linux/uboot/u-boot-github/u-boot"
 	.ascii	"\000"
-.LASF168:
+.LASF155:
 	.ascii	"net_ping_ip\000"
 .LASF110:
 	.ascii	"state\000"
 .LASF3:
 	.ascii	"long int\000"
-.LASF153:
+.LASF140:
 	.ascii	"net_ip\000"
 .LASF19:
 	.ascii	"__be32\000"
-.LASF166:
+.LASF153:
 	.ascii	"net_boot_file_size\000"
 .LASF64:
 	.ascii	"_datarelro_start_ofs\000"
-.LASF136:
-	.ascii	"recv\000"
+.LASF26:
+	.ascii	"ide_bus_offset\000"
 .LASF52:
 	.ascii	"bi_ethspeed\000"
 .LASF96:
 	.ascii	"image_info_t\000"
-.LASF147:
+.LASF134:
 	.ascii	"net_dns_server\000"
-.LASF161:
+.LASF148:
 	.ascii	"net_our_vlan\000"
 .LASF23:
 	.ascii	"image_base\000"
 .LASF31:
 	.ascii	"sector_count\000"
-.LASF171:
+.LASF158:
 	.ascii	"NETLOOP_SUCCESS\000"
 .LASF97:
 	.ascii	"bootm_headers\000"
-.LASF158:
+.LASF145:
 	.ascii	"net_rx_packet_len\000"
 .LASF109:
 	.ascii	"verify\000"
@@ -2104,7 +1941,7 @@ main:
 	.ascii	"_binary_u_boot_bin_start\000"
 .LASF71:
 	.ascii	"reserved\000"
-.LASF155:
+.LASF142:
 	.ascii	"net_tx_packet\000"
 .LASF103:
 	.ascii	"ft_addr\000"
@@ -2112,7 +1949,7 @@ main:
 	.ascii	"bi_flashstart\000"
 .LASF70:
 	.ascii	"memory\000"
-.LASF162:
+.LASF149:
 	.ascii	"net_native_vlan\000"
 .LASF65:
 	.ascii	"IRQ_STACK_START_IN\000"
@@ -2124,7 +1961,7 @@ main:
 	.ascii	"ih_ep\000"
 .LASF58:
 	.ascii	"bd_t\000"
-.LASF148:
+.LASF135:
 	.ascii	"net_nis_domain\000"
 .LASF9:
 	.ascii	"__u8\000"
@@ -2148,12 +1985,10 @@ main:
 	.ascii	"short unsigned int\000"
 .LASF5:
 	.ascii	"long long int\000"
-.LASF165:
+.LASF152:
 	.ascii	"net_boot_file_name_explicit\000"
 .LASF105:
 	.ascii	"initrd_start\000"
-.LASF26:
-	.ascii	"ide_bus_offset\000"
 .LASF20:
 	.ascii	"errno\000"
 .LASF99:
@@ -2166,7 +2001,7 @@ main:
 	.ascii	"bootm_headers_t\000"
 .LASF85:
 	.ascii	"ih_type\000"
-.LASF179:
+.LASF166:
 	.ascii	"net_loop_state\000"
 .LASF72:
 	.ascii	"image_load_addr\000"
@@ -2178,43 +2013,37 @@ main:
 	.ascii	"size_dt_struct\000"
 .LASF120:
 	.ascii	"version\000"
-.LASF159:
+.LASF146:
 	.ascii	"net_bcast_ethaddr\000"
 .LASF107:
 	.ascii	"cmdline_start\000"
-.LASF143:
-	.ascii	"eth_current\000"
-.LASF150:
+.LASF137:
 	.ascii	"net_root_path\000"
-.LASF135:
-	.ascii	"send\000"
 .LASF117:
 	.ascii	"off_dt_struct\000"
 .LASF38:
 	.ascii	"bd_info\000"
 .LASF15:
 	.ascii	"ushort\000"
-.LASF174:
+.LASF161:
 	.ascii	"default_environment\000"
 .LASF88:
 	.ascii	"image_header_t\000"
 .LASF101:
 	.ascii	"rd_start\000"
-.LASF178:
+.LASF165:
 	.ascii	"error_message\000"
 .LASF14:
 	.ascii	"uchar\000"
 .LASF123:
 	.ascii	"size_dt_strings\000"
-.LASF142:
-	.ascii	"priv\000"
 .LASF112:
 	.ascii	"images\000"
 .LASF90:
 	.ascii	"image_start\000"
 .LASF68:
 	.ascii	"lmb_region\000"
-.LASF173:
+.LASF160:
 	.ascii	"net_state\000"
 .LASF86:
 	.ascii	"ih_comp\000"
@@ -2222,13 +2051,11 @@ main:
 	.ascii	"ft_len\000"
 .LASF22:
 	.ascii	"_Bool\000"
-.LASF59:
-	.ascii	"IRQ_STACK_START\000"
 .LASF7:
 	.ascii	"unsigned char\000"
 .LASF79:
 	.ascii	"ih_size\000"
-.LASF154:
+.LASF141:
 	.ascii	"net_server_ip\000"
 .LASF83:
 	.ascii	"ih_os\000"
@@ -2246,9 +2073,7 @@ main:
 	.ascii	"image_save_addr\000"
 .LASF102:
 	.ascii	"rd_end\000"
-.LASF139:
-	.ascii	"write_hwaddr\000"
-.LASF157:
+.LASF144:
 	.ascii	"net_rx_packet\000"
 .LASF126:
 	.ascii	"__dtb_dt_begin\000"
@@ -2256,14 +2081,12 @@ main:
 	.ascii	"bi_dsp_freq\000"
 .LASF128:
 	.ascii	"monitor_flash_len\000"
-.LASF152:
+.LASF139:
 	.ascii	"net_server_ethaddr\000"
 .LASF18:
 	.ascii	"uint32_t\000"
 .LASF62:
 	.ascii	"_datarelrolocal_start_ofs\000"
-.LASF133:
-	.ascii	"iobase\000"
 .LASF37:
 	.ascii	"long double\000"
 .LASF95:
@@ -2274,8 +2097,6 @@ main:
 	.ascii	"bi_flashsize\000"
 .LASF75:
 	.ascii	"image_header\000"
-.LASF141:
-	.ascii	"index\000"
 .LASF21:
 	.ascii	"___strtok\000"
 .LASF12:
@@ -2292,21 +2113,21 @@ main:
 	.ascii	"ih_time\000"
 .LASF114:
 	.ascii	"fdt_header\000"
-.LASF151:
+.LASF138:
 	.ascii	"net_ethaddr\000"
 .LASF125:
 	.ascii	"working_fdt\000"
 .LASF127:
 	.ascii	"__dtb_dt_spl_begin\000"
-.LASF146:
+.LASF133:
 	.ascii	"net_netmask\000"
 .LASF29:
 	.ascii	"block_drvr\000"
 .LASF69:
 	.ascii	"region\000"
-.LASF163:
+.LASF150:
 	.ascii	"net_restart_wrap\000"
-.LASF169:
+.LASF156:
 	.ascii	"NETLOOP_CONTINUE\000"
 .LASF53:
 	.ascii	"bi_intfreq\000"
@@ -2316,35 +2137,31 @@ main:
 	.ascii	"phys_size_t\000"
 .LASF35:
 	.ascii	"flash_info_t\000"
-.LASF176:
+.LASF163:
 	.ascii	"lib/asm-offsets.c\000"
-.LASF164:
+.LASF151:
 	.ascii	"net_boot_file_name\000"
-.LASF138:
-	.ascii	"mcast\000"
+.LASF59:
+	.ascii	"IRQ_STACK_START\000"
 .LASF17:
 	.ascii	"uint8_t\000"
 .LASF122:
 	.ascii	"boot_cpuid_phys\000"
 .LASF57:
 	.ascii	"bi_dram\000"
-.LASF156:
+.LASF143:
 	.ascii	"net_rx_packets\000"
 .LASF51:
 	.ascii	"bi_enetaddr\000"
-.LASF137:
-	.ascii	"halt\000"
 .LASF87:
 	.ascii	"ih_name\000"
 .LASF48:
 	.ascii	"bi_ddr_freq\000"
-.LASF131:
-	.ascii	"eth_device\000"
 .LASF39:
 	.ascii	"bi_memstart\000"
 .LASF33:
 	.ascii	"start\000"
-.LASF180:
+.LASF167:
 	.ascii	"main\000"
 .LASF113:
 	.ascii	"fdt32_t\000"
@@ -2356,9 +2173,9 @@ main:
 	.ascii	"bi_flashoffset\000"
 .LASF63:
 	.ascii	"_datarellocal_start_ofs\000"
-.LASF144:
+.LASF131:
 	.ascii	"push_packet\000"
-.LASF145:
+.LASF132:
 	.ascii	"net_gateway\000"
 .LASF129:
 	.ascii	"in_addr\000"

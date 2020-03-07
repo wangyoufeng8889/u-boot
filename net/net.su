@@ -5,7 +5,7 @@ net.c:220:12:on_ipaddr	8	static
 net.c:232:12:on_gatewayip	8	static
 net.c:244:12:on_netmask	8	static
 net.c:256:12:on_serverip	8	static
-net.c:354:13:net_init_loop	0	static
+net.c:354:13:net_init_loop.part.0	8	static
 net.c:374:6:net_init	8	static
 net.c:691:5:net_start_again	16	static
 net.c:756:11:net_get_udp_handler	0	static

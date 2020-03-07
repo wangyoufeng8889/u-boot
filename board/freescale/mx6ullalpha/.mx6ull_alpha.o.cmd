@@ -3,6 +3,7 @@ cmd_board/freescale/mx6ullalpha/mx6ull_alpha.o := arm-linux-gnueabihf-gcc -Wp,-M
 source_board/freescale/mx6ullalpha/mx6ull_alpha.o := board/freescale/mx6ullalpha/mx6ull_alpha.c
 
 deps_board/freescale/mx6ullalpha/mx6ull_alpha.o := \
+    $(wildcard include/config/fec/mxc.h) \
     $(wildcard include/config/cmd/bmode.h) \
     $(wildcard include/config/env/vars/uboot/runtime/config.h) \
   include/init.h \
@@ -56,12 +57,6 @@ deps_board/freescale/mx6ullalpha/mx6ull_alpha.o := \
     $(wildcard include/config/sys/i2c/mxc/i2c1.h) \
     $(wildcard include/config/sys/i2c/mxc/i2c2.h) \
     $(wildcard include/config/sys/i2c/speed.h) \
-    $(wildcard include/config/cmd/net.h) \
-    $(wildcard include/config/fec/mxc.h) \
-    $(wildcard include/config/fec/enet/dev.h) \
-    $(wildcard include/config/fec/mxc/phyaddr.h) \
-    $(wildcard include/config/fec/xcv/type.h) \
-    $(wildcard include/config/ethprime.h) \
     $(wildcard include/config/sys/mmc/img/load/part.h) \
     $(wildcard include/config/extra/env/settings.h) \
     $(wildcard include/config/sys/mmc/env/dev.h) \

@@ -26,4 +26,4 @@ efi_net.c:191:28:efi_net_reset	8	static
 efi_net.c:797:28:efi_pxe_base_code_set_station_ip	0	static
 efi_net.c:724:28:efi_pxe_base_code_dhcp	0	static
 efi_net.c:646:6:efi_net_set_dhcp_ack	16	static
-efi_net.c:828:14:efi_net_register	32	static
+efi_net.c:828:14:efi_net_register	40	static
