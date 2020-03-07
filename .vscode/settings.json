@@ -85,8 +85,8 @@
         "include/configs/mx[1-5|7-9]*":true,
         "include/configs/mx[a-z]*":true,
         "include/configs/mx6[a-t|v-z]*":true,
-        "include/configs/mx6ul_*":true,
-        "include/configs/mx6ulle*":true,
+        //"include/configs/mx6ul_*":true,
+        //"include/configs/mx6ulle*":true,
     },
     "files.associations": {
         "fec_mxc.h": "c"

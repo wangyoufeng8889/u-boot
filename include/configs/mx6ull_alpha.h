@@ -41,6 +41,24 @@
 #define CONFIG_SYS_I2C_SPEED		100000
 #endif
 
+#ifdef CONFIG_CMD_NET
+#define CONFIG_FEC_MXC
+#define CONFIG_FEC_ENET_DEV		1
+
+#if (CONFIG_FEC_ENET_DEV == 0)
+#define IMX_FEC_BASE			ENET_BASE_ADDR
+#define CONFIG_FEC_MXC_PHYADDR          0x0
+#define CONFIG_FEC_XCV_TYPE             RMII
+#define CONFIG_ETHPRIME			"eth0"
+#elif (CONFIG_FEC_ENET_DEV == 1)
+#define IMX_FEC_BASE			ENET2_BASE_ADDR
+#define CONFIG_FEC_MXC_PHYADDR		0x1
+#define CONFIG_FEC_XCV_TYPE		RMII
+#define CONFIG_ETHPRIME			"eth1"
+#endif
+#endif
+
+
 #define CONFIG_SYS_MMC_IMG_LOAD_PART	1
 
 #define CONFIG_EXTRA_ENV_SETTINGS \
