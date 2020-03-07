@@ -262,6 +262,8 @@ export	HOSTARCH HOSTOS
 ifeq ($(HOSTARCH),$(ARCH))
 CROSS_COMPILE ?=
 endif
+CROSS_COMPILE ?= arm-linux-gnueabihf-
+ARCH ?= arm
 
 KCONFIG_CONFIG	?= .config
 export KCONFIG_CONFIG
