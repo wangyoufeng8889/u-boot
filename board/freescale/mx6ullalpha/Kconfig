@@ -7,6 +7,6 @@ config SYS_VENDOR
 	default "freescale"
 
 config SYS_CONFIG_NAME
-	default "mx6ullalpha"
+	default "mx6ull_alpha"
 
 endif
