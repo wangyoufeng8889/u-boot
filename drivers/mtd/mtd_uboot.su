@@ -1,0 +1,2 @@
+mtd_uboot.c:56:5:mtd_search_alternate_name	32	static
+mtd_uboot.c:353:5:mtd_probe_devices	0	static

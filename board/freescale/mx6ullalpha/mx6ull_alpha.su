@@ -1,0 +1,7 @@
+mx6ull_alpha.c:29:5:dram_init	8	static
+mx6ull_alpha.c:46:5:board_mmc_get_env_dev	0	static
+mx6ull_alpha.c:51:5:mmc_map_to_kernel_blk	0	static
+mx6ull_alpha.c:56:5:board_early_init_f	8	static
+mx6ull_alpha.c:63:5:board_init	0	static
+mx6ull_alpha.c:81:5:board_late_init	8	static
+mx6ull_alpha.c:98:5:checkboard	8	static

@@ -1,0 +1,16 @@
+soc.c:493:12:mmc_get_boot_dev	0	static
+soc.c:55:5:get_nr_cpus	0	static
+soc.c:61:5:get_cpu_rev	0	static
+soc.c:127:5:get_cpu_speed_grade_hz	8	static
+soc.c:186:5:get_cpu_temp_grade	0	static
+soc.c:217:12:get_board_rev	8	static
+soc.c:252:5:set_ldo_voltage	16	static
+soc.c:403:5:arch_cpu_init	8	static
+soc.c:488:12:board_mmc_get_env_dev	0	static
+soc.c:518:5:mmc_get_env_dev	8	static
+soc.c:530:12:board_mmc_get_env_part	0	static
+soc.c:535:6:mmc_get_env_part	8	static
+soc.c:548:5:board_postclk_init	8	static
+soc.c:588:6:reset_misc	0	static
+soc.c:597:6:s_init	8	static
+soc.c:698:6:gpr_init	16	static

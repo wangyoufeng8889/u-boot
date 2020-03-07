@@ -1,0 +1,6 @@
+syscounter.c:23:15:usec2ticks	0	static
+syscounter.c:60:5:timer_init	0	static
+syscounter.c:83:20:get_ticks	0	static
+syscounter.c:95:7:get_timer	32	static
+syscounter.c:100:6:__udelay	48	static
+syscounter.c:116:7:get_tbclk	0	static

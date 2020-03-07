@@ -1,0 +1,4 @@
+misc.c:20:5:mxs_wait_mask_set	16	static
+misc.c:32:5:mxs_wait_mask_clr	16	static
+misc.c:44:5:mxs_reset_block	16	static
+misc.c:85:6:board_lmb_reserve	0	static
